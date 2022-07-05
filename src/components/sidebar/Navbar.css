@@ -1,0 +1,103 @@
+.navbar {
+    /* background: #6a7dfe;
+    background: -webkit-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: -o-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: -moz-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88)); */
+    background-color: rgb(29, 155, 69);
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .nav-menu {
+    /* background: #6a7dfe;
+    background: -webkit-linear-gradient(to left, rgb(88, 194, 88), rgb(20, 156, 122));
+    background: -o-linear-gradient(to left, rgb(88, 194, 88), rgb(20, 156, 122));
+    background: -moz-linear-gradient(to left, rgb(88, 194, 88), rgb(20, 156, 122));
+    background: linear-gradient(to left, rgb(88, 194, 88), rgb(20, 156, 122)); */
+    background-color: rgb(29, 155, 69);
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  .nav-text:hover {
+    /* background: #6a7dfe;
+    background: -webkit-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: -o-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: -moz-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88)); */
+    background-color: rgb(88, 194, 88);
+    color: #f5f5f5;
+    }
+ 
+  .nav-text a:hover {
+    /* background: #6a7dfe;
+    background: -webkit-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: -o-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: -moz-linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88));
+    background: linear-gradient(to left, rgb(20, 156, 122), rgb(88, 194, 88)); */
+    background-color: rgb(88, 194, 88);
+    color: #f5f5f5;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    /* background: #6a7dfe;
+    background: -webkit-linear-gradient(to left, rgb(88, 194, 88), rgb(20, 156, 122));
+    background: -o-linear-gradient(to left, rgb(88, 194, 88), rgb(20, 156, 122));
+    background: -moz-linear-gradient(to left, rgb(88, 194, 88), rgb(20, 156, 122));
+    background: linear-gradient(to left, rgb(88, 194, 88), rgb(20, 156, 122)); */
+    background-color: rgb(29, 155, 69);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
