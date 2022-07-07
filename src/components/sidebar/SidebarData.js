@@ -2,6 +2,7 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as BaIcons from 'react-icons/bs';
 
 export const SidebarData = [
   {
@@ -23,14 +24,14 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Undefined',
-    path: '/Undefined',
-    icon: <IoIcons.IoMdPeople />,
+    title: 'Veículo Motor',
+    path: '/motor',
+    icon: <BaIcons.BsGearFill />,
     cName: 'nav-text'
   },
   {
-    title: 'Undefined',
-    path: '/Undefined',
+    title: 'Tipo Veículo',
+    path: '/tipoVeiculo',
     icon: <FaIcons.FaEnvelopeOpenText />,
     cName: 'nav-text'
   },
