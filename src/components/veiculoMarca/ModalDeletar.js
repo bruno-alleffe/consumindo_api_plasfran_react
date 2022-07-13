@@ -1,4 +1,4 @@
-import * as tipoVeiculo from '../services/tipoVeiculo.js'
+import * as veiculoMarca from '../services/veiculoMarca.js'
 import Modal from 'react-modal'
 import { useState } from 'react'
 import { Trash } from 'heroicons-react'
@@ -28,11 +28,11 @@ function ModalDeletar({atualizarTabela, id}) {
 
     async function remove() {
  
-      const response = await tipoVeiculo.removeTipoVeiculo(id)
+      const response = await veiculoMarca.removeMarcaVeiculo(id)
       if(response.success){
         atualizarTabela()
         setIsOpen(false)
-        toast.success('Tipo veículo excluido com sucesso', {
+        toast.success('Marca veículo excluido com sucesso', {
           position: toast.POSITION.TOP_CENTER
         })
       } else {
@@ -81,7 +81,7 @@ function ModalDeletar({atualizarTabela, id}) {
                 </button>
                 <div className="text-center flex flex-col -mt-10">
                     <svg className="mx-auto mb-4 w-14 h-14 text-gray-400 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Tem certeza de que deseja excluir este tipo veículo?</h3>
+                    <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Tem certeza de que deseja excluir essa marca de veículo?</h3>
                 </div>
                 <div className='flex items-end justify-between'>
                   <button onClick={remove} data-modal-toggle="popup-modal" type="button" className="w-40 text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center">

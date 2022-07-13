@@ -26,19 +26,19 @@ export const SidebarData = [
   {
     title: 'Veículo Motor',
     path: '/motor',
-    icon: <BaIcons.BsGearFill />,
+    icon: <FaIcons.FaCarBattery />,
     cName: 'nav-text'
   },
   {
     title: 'Tipo Veículo',
     path: '/tipoVeiculo',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <FaIcons.FaCaravan />,
     cName: 'nav-text'
   },
   {
-    title: 'Undefined',
-    path: '/Undefined',
-    icon: <IoIcons.IoMdHelpCircle />,
+    title: 'Veiculo Marca',
+    path: '/veiculoMarca',
+    icon: <FaIcons.FaCarSide />,
     cName: 'nav-text'
   }
 ];
