@@ -3,7 +3,7 @@ import VeiculoMarcaTable from '../veiculoMarca/VeiculoMarcaTable.js'
 
 
 
-function Abastecimento() {
+function VeiculoMarca() {
    
     return (
         <div>
@@ -16,4 +16,4 @@ function Abastecimento() {
     )
 }
 
-export default Abastecimento
+export default VeiculoMarca

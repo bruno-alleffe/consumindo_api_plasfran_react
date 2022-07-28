@@ -5,6 +5,7 @@ import Abastecimento from './components/pages/Abastecimento'
 import VeiculoMotor from './components/pages/VeiculoMotor.js'
 import TipoVeiculo from './components/pages/TipoVeiculo.js'
 import VeiculoMarca from './components/pages/VeiculoMarca.js'
+import PostoCombustivel from './components/pages/PostoCombustivel.js'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.min.css'
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/motor" element={<VeiculoMotor />}></Route>
           <Route path="/tipoVeiculo" element={<TipoVeiculo />}></Route>
           <Route path="/veiculoMarca" element={<VeiculoMarca />}></Route>
+          <Route path="/postoCombustivel" element={<PostoCombustivel />}></Route>
         </Routes>
         <ToastContainer />
     </Router>

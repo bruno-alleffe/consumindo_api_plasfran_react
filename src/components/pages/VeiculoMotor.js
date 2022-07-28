@@ -3,7 +3,7 @@ import Navbar from '../sidebar/Navbar.js'
 
 
 
-function Abastecimento() {
+function VeiculoMotor() {
    
     return (
         <div>
@@ -16,4 +16,4 @@ function Abastecimento() {
     )
 }
 
-export default Abastecimento
+export default VeiculoMotor

@@ -40,5 +40,11 @@ export const SidebarData = [
     path: '/veiculoMarca',
     icon: <FaIcons.FaCarSide />,
     cName: 'nav-text'
+  },
+  {
+    title: 'Posto Combustível',
+    path: '/postoCombustivel',
+    icon: <FaIcons.FaGasPump />,
+    cName: 'nav-text'
   }
 ];
